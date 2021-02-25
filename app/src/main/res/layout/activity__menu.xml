@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="90dp" />
+
+        <Button
+            android:id="@+id/button_lk"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="#4B7081"
+            android:fontFamily="@font/roboto_slab_light"
+            android:onClick="Choose"
+            android:shape="oval"
+            android:text="Войти в личный кабинет"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/bluen" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="13dp" />
+
+        <Button
+            android:id="@+id/button_regist"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="#4B7081"
+            android:fontFamily="@font/roboto_slab_light"
+            android:onClick="Choose"
+            android:shape="oval"
+            android:text="Зарегистрироваться"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/bluen" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="13dp" />
+
+
+    </LinearLayout>
+
+</FrameLayout>
